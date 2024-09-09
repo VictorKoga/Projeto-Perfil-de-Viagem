@@ -1,0 +1,41 @@
+/* variavel da tag NAV */ 
+nav {
+
+  display: flex; 
+  /* espaço entre os elementos */
+  justify-content: space-between; 
+  /* centralizar os elementos dentro do eixo */
+  align-items: center; 
+  /* tira rodos os espaços que tem */
+  line-height: 0; 
+  /*vai olhar para o eixo Y olhando pro de cima e debaixo*/  
+  padding-block: 20px; 
+}
+
+/* variavel da tag UL dentro do NAV  */
+nav ul {
+  /* tirou os bullet do ul */
+  list-style: none;
+  /* alinhou um ao lado do outro */ 
+  display: flex; 
+  /* centralizar os elementos dentro do eixo */
+  align-items: center; 
+  /* deixar um espaço entre os elementos */
+  gap: 24px;
+
+  /*vai olhar para o eixo Y olhando pro de cima e debaixo*/
+  padding-block: 8px;
+}
+
+/* variavel para pegar a imagem no ultimo LI */
+nav ul li:last-child img {
+  /* largura da imagem */
+  width: 40px; 
+  /* altura da imagem */
+  height: 40px; 
+  /* usar se não for a imagem do projeto */
+  object-fit: cover; 
+  /* se nao estiver arredondado usar border-radius */
+  border-radius: 50%; 
+}
+

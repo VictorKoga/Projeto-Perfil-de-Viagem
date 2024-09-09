@@ -33,7 +33,38 @@
 }
 
 body {
+  /* variavel da font que vai na page */
   font: var(--text);
-  color: var(--text-color-secondary); /* dentro do parenteses vai a varial */ 
-  background-color: var(--background-color); /* variavel do fundo da page */
+  /* dentro do parenteses vai a variavel */ 
+  color: var(--text-color-secondary); 
+  /* variavel do fundo da page */
+  background-color: var(--background-color); 
+}
+
+a {
+ /* nao vai ter uma decoracao */
+ text-decoration: none;
+ /* ter uma cor que venha da herança*/
+ color: inherit;
+}
+ /* quando passar o mouse em cima */
+a:hover{
+  /*cor quando passar o mouse em cima */
+  color: var(--brand-color);
+  /* colocar um underline abaixo do texto quando passar o mouse */
+  text-decoration: underline;
+}
+/* vai conter a nivel de projeto */
+.container {
+  /* vai definir o espaço nas laterais */
+  padding-inline: 32px;
+  /* largura maxima */
+  max-width: 1280px;
+  /* so vai ser mexido nas laterais ficando automatico */
+  margin-inline: auto;
+}
+ /* variavel aplicada a div antes do nav para nao ter limitacao de tamanho */
+.bg-surface-color {
+  /* variavel do fundo do cabecalho onde esta a logo */
+  background-color: var(--surfarce-color);
 }
