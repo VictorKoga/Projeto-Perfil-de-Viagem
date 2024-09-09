@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- cabeça do projeto -->
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- cabeça do projeto -->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--titulo da pagida-->
-    <title>Travelgram | Perfil de viagens</title>
-    <!-- link para o caminho do CSS -->
-    <link rel="stylesheet" href="styles/index.css" />
-    <!-- link da font do google -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
-  </head>
-  <!-- corpo do projeto -->
-  <body>
-    <!-- essa  esta ao redor do nav não tem uma limitação de espaço-->
-    <div class="bg-surface-color">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--titulo da pagida-->
+  <title>Travelgram | Perfil de viagens</title>
+  <!-- link para o caminho do CSS -->
+  <link rel="stylesheet" href="styles/index.css" />
+  <!-- link da font do google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+</head>
+<!-- corpo do projeto -->
+
+<body>
+  <!-- essa  esta ao redor do nav não tem uma limitação de espaço-->
+  <div class="bg-surface-color">
     <!--tag de navigator criando uma classe container onde vai conter todo projeto-->
     <nav class="container">
       <!-- logo marca do projeto  -->
       <a href="#" id="logo">
-        <img src="assets/Logo.svg" alt="Logomarca">
+        <img src="assets/Logo.svg" alt="Logomarca" />
       </a>
       <!-- utilizado para criar listas não ordenadas -->
       <ul id="primary-menu">
@@ -30,19 +32,48 @@
         <li>
           <!--  link  -->
           <a href="#">
-            <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa">
+            <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa" />
           </a>
         </li>
         <li><a href="#">Explorer</a></li>
         <li><a href="#">Minhas viagens</a></li>
-        <li><a href="#">
-          <img src="assets/Profile pic.png" alt="Imagem de Isabela Torres">
-        </a>
-      </li>
+        <li>
+          <a href="#">
+            <img src="assets/Profile pic.png" alt="Imagem de Isabela Torres" />
+          </a>
+        </li>
       </ul>
     </nav>
-  </div>
+
     <header>
+      <div class="container">
+        <div id="profile">
+          <img src="assets/Profile pic.png" alt="imagem de Isabela Torres">
+          <div>
+            <h1>Isabela Torres</h1>
+            <p>
+              Amante de viagens, cultura e gastronomia. 🌍✈️ <br>
+              Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
+            </p>
+          </div>
+        </div>
+        <ul id="info">
+          <li>
+            <img src="assets/icons/MapPin.svg" alt="icone mapa">
+            <span>São Paulo, Brazil</span>
+          </li>
+          <li>
+            <img src="assets/icons/AirplaneTilt.svg" alt="icone aviao">
+            <span>37 países</span>
+          </li>
+          <li>
+            <img src="assets/icons/Image.svg" alt="icone imagem">
+            <span>240 fotos</span>
+          </li>
+        </ul>
+      </div>
     </header>
-  </body>
+  </div>
+</body>
+
 </html>

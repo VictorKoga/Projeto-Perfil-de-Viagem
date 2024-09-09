@@ -26,9 +26,9 @@
   /* variavel do texto tendo tamanho da font definindo o line-heigth 150% ou 1.5*/
   --text: 16px/150% var(--font-family);
   /* variavel da font do meio tendo tamanho da font definindo o line-heigth */
-  --text-md: 14px/175% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
   /* variavel da font do small tendo tamanho da font definindo o line-heigth */
-  --text-sm: 12px/175% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
   
 }
 

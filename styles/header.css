@@ -1,0 +1,63 @@
+header{
+  /*vai olhar para o eixo Y olhando pro de cima e debaixo*/  
+  padding-block: 32px;
+  /* font do text variavel vindo do global.css */
+  font: var(--text-md);
+}
+/* alterando a tag header da class container*/
+header .container{
+  /* colocar todos os elementos um ao lado do outro*/
+  display: flex;
+  /* espacamento dos elementos */
+  justify-content: space-between;
+  /* alinhar ao centro */
+  align-items: center;
+
+}
+/* alterando as informacoes dentro da class PROFILE */
+#profile {
+  /* alinha os elementos um ao lado do outro */
+  display: flex;  
+  /* espacamento entre os elementos */
+  gap: 32px;
+}
+/* pegar primeiro nivel de filho a DIV */
+#profile > div {
+  /* largura maxima */
+  max-width: 384px;
+}
+/* pegando os dados que esta dentro da class profile dentro da tag H1 */
+#profile h1 {
+  /* esta pegando a font da variavel que declaramos no global.css */
+  font: var(--text-lg);
+  /* esta pegando a cor da variavel declarada dentro do global.css*/
+  color: var(--text-color-primary);
+  /* margem do botão */
+  margin-bottom: 8px;
+}
+
+/* alterando as informacoes da ul INFO */
+#info {
+  /* retirar os bullet *nome * nome * nome */
+  list-style: none;
+  /* alinha os elementos um do lado do outro */
+  display: flex;
+  /* altera o display para tipo de coluna ficando um abaixo do outro */
+  flex-direction: column;
+  /* espacamento entre os elementos */
+  gap: 16px;
+  /* tamanho da caixa */
+  width: 280px;
+
+
+}
+/* cada info tem uma LI */
+#info li {
+  /* alinhas os elementos um do lado do outros */
+  display: flex;
+  /* alinhas os itens ao centro */
+  align-items: center;
+  /* dar um espacamento entre os elementos */ 
+  gap: 8px;
+
+}
