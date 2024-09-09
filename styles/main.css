@@ -1,0 +1,20 @@
+/* alterando o main do HTML */
+main {
+  /* alinhar as imagem uma do lado da outra */
+  display: flex;
+  /* quebra de linha onde deixa uma imagem abaixo da outra */
+  flex-wrap: wrap;
+  /* espacamento entre as imagem */
+  gap: 24px;
+  /*definir o espaçamento entre o conteúdo de um elemento e suas bordas no início e no final do bloco*/
+  padding-block: 24px;
+}
+/* alterando as imagem dentro do main */
+main img{
+  /* largura das imagem */
+  width: 286px;
+  /* altura das imagem */
+  height: 286px;
+  /* se as imagem nao forem do projeto e nao estiverem corretas sempre utilizar */
+  object-fit: cover;
+}
