@@ -5,16 +5,35 @@
 }
 
 :root {
-  --brand-color: #EF5F4C; /* variavel */
-  --background-color: #FFFFFF; /* variavel do background color */
-  --surfarce-color: #F5F5F5; /* variavel do surface */
-  --skeleton-color: #D9D9D9; /* variavel do skeleton */
-  --shape-transparency: #ffffff8f; /* variavel da transparencia */
-  --text-color-primary: #313131; /* variavel do texto primario */
-  --text-color-secondary: #6C6C6C; /* variavel do texto secundario */
+  /* variavel */
+  --brand-color: #EF5F4C; 
+  /* variavel do background color */
+  --background-color: #FFFFFF;
+  /* variavel do surface */ 
+  --surfarce-color: #F5F5F5; 
+  /* variavel do skeleton */
+  --skeleton-color: #D9D9D9; 
+  /* variavel da transparencia */
+  --shape-transparency: #ffffff8f;
+  /* variavel do texto primario */ 
+  --text-color-primary: #313131;
+  /* variavel do texto secundario */
+  --text-color-secondary: #6C6C6C; 
+  /* variavel da font importada */
+  --font-family: "Poppins", sans-serif; 
+  /* variavel da font larga tendo tamanho da font definindo o line-heigth */
+  --text-lg: bold 32px/125% var(--font-family);  
+  /* variavel do texto tendo tamanho da font definindo o line-heigth 150% ou 1.5*/
+  --text: 16px/150% var(--font-family);
+  /* variavel da font do meio tendo tamanho da font definindo o line-heigth */
+  --text-md: 14px/175% var(--font-family);
+  /* variavel da font do small tendo tamanho da font definindo o line-heigth */
+  --text-sm: 12px/175% var(--font-family);
+  
 }
 
 body {
+  font: var(--text);
   color: var(--text-color-secondary); /* dentro do parenteses vai a varial */ 
   background-color: var(--background-color); /* variavel do fundo da page */
 }
