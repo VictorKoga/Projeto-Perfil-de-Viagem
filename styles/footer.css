@@ -6,6 +6,8 @@ footer {
   gap: 24px;
   /*definir o espaçamento entre o conteúdo de um elemento e suas bordas no início e no final do bloco*/
   padding-block: 24px;
+  /*fonte do rodape com a variavel declarada no global.css */
+  font: 14px/150% var(--font-family);
 }
 /* nth-child seria como se fosse o filho 1 ou seja pega o primeiro span no HTML */
 footer span:nth-child(1) { /* no caso o filho um aqui é onde esta TRAVELGRAM*/

@@ -26,6 +26,17 @@ header .container{
   /* largura maxima */
   max-width: 384px;
 }
+/* alterando a imagem do perfil */
+#profile img{
+  /* largura da imagem */
+  width: 176px;
+  /* altura da imagem */
+  height: 176px;
+  /* se nao for uma imagem do projeto */
+  object-fit: cover;
+  /* para deixar ela redonda */
+  border-radius: 50%;
+}
 /* pegando os dados que esta dentro da class profile dentro da tag H1 */
 #profile h1 {
   /* esta pegando a font da variavel que declaramos no global.css */
