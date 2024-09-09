@@ -1,0 +1,14 @@
+/* alterando os elemtos do rodape */
+footer {
+  /*alinhando todos os elementos um do lado do outro */
+  display: flex;
+  /*espacamento entre os elementos */ 
+  gap: 24px;
+  /*definir o espaçamento entre o conteúdo de um elemento e suas bordas no início e no final do bloco*/
+  padding-block: 24px;
+}
+/* nth-child seria como se fosse o filho 1 ou seja pega o primeiro span no HTML */
+footer span:nth-child(1) { /* no caso o filho um aqui é onde esta TRAVELGRAM*/
+  /* margem a direita automatico */
+  margin-right: auto;
+}
